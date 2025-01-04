@@ -16,6 +16,7 @@ import { configuration } from './config';
 import { AllExceptionsFilter } from './common/filters';
 import { ErrorsInterceptor } from './common/interceptors';
 import { DomainModule } from './domain';
+import { ChatModule } from './chat/chat.module';
 
 @Module({
   imports: [
@@ -38,6 +39,7 @@ import { DomainModule } from './domain';
     CommonModule,
     BaseModule,
     DomainModule,
+    ChatModule,
   ],
   controllers: [AppController],
   providers: [

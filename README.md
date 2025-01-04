@@ -24,6 +24,10 @@ Template for quick start small new project like hackathon.
 - [x] Swagger
 - [x] CI
 
+## Reference
+- [NestJS-websockets](https://docs.nestjs.com/websockets/gateways)
+- [socket.io](https://socket.io/docs/v4/)
+
 <br/>
 
 # 🔨 Getting started
